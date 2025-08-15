@@ -1,0 +1,170 @@
+{
+  "common": {
+    "currency": "UAH",
+    "currencySymbol": "₴"
+  },
+  "Header": {
+    "login": "Увійти",
+    "logout": "Вийти",
+    "register": "Зареєструватися"
+  },
+  "Products": {
+    "title": "Товари",
+    "addProduct": "Додати товар",
+    "noProducts": "Товарів не знайдено",
+    
+    "Pagination": {
+      "onPage": "На сторінці",
+      "shown": "Показано",
+      "of": "з"
+    },
+    "Product": {
+      "notFound": "Товар не знайдено",
+      "buy": "Купити",
+      "price": "Ціна",
+      "validation": {
+        "name": {
+          "min": "Мінімум 2 символи",
+          "required": "Ім'я обов'язкове"
+        },
+        "description": {
+          "min": "Мінімум 5 символів",
+          "required": "Опис обов'язковий"
+        },
+        "price": {
+          "number": "Ціна має бути числом",
+          "min": "Ціна має бути більшою за 0"
+        },
+        "image_url": {
+          "url": "Невірна URL"
+        }
+      },
+      "Card": {
+        "buy": "Купити",
+        "edit": "Редагувати",
+        "delete": {
+          "title": "Видалити",
+          "confirm": "Ви впевнені, що хочете видалити цей товар?",
+          "cancel": "Скасувати",
+          "delete": "Видалити"
+        },
+        "price": "Ціна"
+      },
+      "Form": {
+        "submit": {
+          "save": "Створити",
+          "loading": "Створення...",
+          "cancel": "Скасувати"
+        },
+        "name": {
+          "label": "Назва",
+          "placeholder": "Введіть назву"
+        },
+        "description": {
+          "label": "Опис",
+          "placeholder": "Короткий опис"
+        },
+        "price": {
+          "label": "Ціна",
+          "placeholder": "Введіть ціну"
+        },
+        "image_url": {
+          "label": "URL зображення",
+          "placeholder": "Введіть URL зображення",
+          "description": "Необов'язково. Залиште порожнім, щоб не змінювати."
+        }
+      },
+      "create": {
+        "title": "Створити товар",
+        "submit": {
+          "save": "Створити",
+          "loading": "Створення...",
+          "cancel": "Скасувати"
+        }
+      },
+      "edit": {
+        "notFound": "Товар не знайдено",
+        "title": "Редагувати товар",
+        "submit": {
+          "save": "Зберегти",
+          "loading": "Збереження...",
+          "cancel": "Скасувати"
+        }
+      }
+    }
+  },
+  "Auth": {
+    "description": "Введіть дані, щоб продовжити",
+    "validation": {
+      "name": {
+        "min": "Мінімум 2 символи",
+        "required": "Ім'я обов'язкове"
+      },
+      "email": {
+        "invalid": "Невірний email",
+        "required": "Email обов'язковий"
+      },
+      "password": {
+        "min": "Мінімум 8 символів",
+        "required": "Пароль обов'язковий"
+      },
+      "confirmPassword": {
+        "match": "Паролі не збігаються"
+      }
+    },
+    "Login": {
+      "title": "Вхід",
+      "submit": "Увійти"
+    },
+    "Register": {
+      "title": "Реєстрація",
+      "submit": "Зареєструватися"
+    }
+  },
+  "Dashboard": {
+    "nothingSelected": "Виберіть розділ...",
+    "Sidebar": {
+      "title": "Навігація",
+      "products": "Товари",
+      "profile": "Профіль"
+    }
+  },
+  "Profile": {
+    "Form": {
+      "title": "Редагувати профіль",
+      "submit": {
+        "save": "Зберегти",
+        "loading": "Збереження...",
+        "reset": "Скинути",
+        "cancel": "Скасувати"
+      },
+      "name": {
+        "label": "Ім'я",
+        "placeholder": "Введіть ваше ім'я",
+        "description": "Відображуване ім'я"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Введіть ваш email",
+        "description": "Email для входу та сповіщень"
+      },
+      "validation": {
+        "name": {
+          "min": "Мінімум 2 символи",
+          "required": "Ім'я обов'язкове"
+        },
+        "email": {
+          "invalid": "Невірний email",
+          "required": "Email обов'язковий"
+        }
+      }
+    },
+    "notFound": "Користувач не знайдений",
+    "title": "Профіль користувача",
+    "edit": "Редагувати",
+    "name": "Ім'я",
+    "email": "Email",
+    "id": "ID"
+  }
+}
+

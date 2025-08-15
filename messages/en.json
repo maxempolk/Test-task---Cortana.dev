@@ -1,0 +1,177 @@
+{
+  "common": {
+    "currency": "UAH",
+    "currencySymbol": "₴"
+  },
+  "Header": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "Products": {
+    "title": "Products",
+    "addProduct": "Add product",
+    "noProducts": "No products found",
+    
+    "Pagination": {
+      "onPage": "On page",
+      "shown": "Shown",
+      "of": "of"
+    },
+
+    "Product": {
+      "notFound": "Product not found",
+      "buy": "Buy",
+      "price": "Price",
+
+      "validation": {
+        "name": {
+          "min": "Minimum 2 characters",
+          "required": "Name is required"
+        },
+        "description": {
+          "min": "Minimum 5 characters",
+          "required": "Description is required"
+        },
+        "price": {
+          "number": "Price must be a number",
+          "min": "Price must be greater than 0"
+        },
+        "image_url": {
+          "url": "Invalid URL"
+        }
+      },
+
+      "Card": {
+        "buy": "Buy",
+        "edit": "Edit",
+        "delete": {
+          "title": "Delete",
+          "confirm": "Are you sure you want to delete this product?",
+          "cancel": "Cancel",
+          "delete": "Delete"
+        },
+        "price": "Price"
+      },
+
+      "Form": {
+        "submit": {
+          "save": "Create",
+          "loading": "Creating...",
+          "cancel": "Cancel"
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter name"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Short description"
+        },
+        "price": {
+          "label": "Price",
+          "placeholder": "Enter price"
+        },
+        "image_url": {
+          "label": "Image URL",
+          "placeholder": "Enter image URL",
+          "description": "Optional. Leave empty to not change."
+        }
+      },
+
+      "create": {
+        "title": "Create product",
+        "submit": {
+          "save": "Create",
+          "loading": "Creating...",
+          "cancel": "Cancel"
+        }
+      },
+
+      "edit": {
+        "notFound": "Product not found",
+        "title": "Edit product",
+        "submit": {
+          "save": "Save",
+          "loading": "Saving...",
+          "cancel": "Cancel"
+        }
+      }
+    }
+  },
+  "Auth": {
+    "description": "Enter your data to continue",
+
+    "validation": {
+      "name": {
+        "min": "Minimum 2 characters",
+        "required": "Name is required"
+      },
+      "email": {
+        "invalid": "Invalid email",
+        "required": "Email is required"
+      },
+      "password": {
+        "min": "Minimum 8 characters",
+        "required": "Password is required"
+      },
+      "confirmPassword": {
+        "match": "Passwords do not match"
+      }
+    },
+    
+    "Login": {
+      "title": "Login",
+      "submit": "Login"
+    },
+    "Register": {
+      "title": "Register",
+      "submit": "Register"
+    }
+  },
+  "Dashboard": {
+    "nothingSelected": "Select a section...",
+    "Sidebar": {
+      "title": "Navigation",
+      "products": "Products",
+      "profile": "Profile"
+    }
+  },
+  "Profile": {
+      "Form": {
+        "title": "Edit profile",
+        "submit": {
+          "save": "Save",
+          "loading": "Saving...",
+          "reset": "Reset",
+          "cancel": "Cancel"
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter your name",
+          "description": "Display name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email",
+          "description": "Email for login and notifications"
+        },
+        "validation": {
+          "name": {
+            "min": "Minimum 2 characters",
+            "required": "Name is required"
+          },
+          "email": {
+            "invalid": "Invalid email",
+            "required": "Email is required"
+          }
+        }
+      },
+      "notFound": "User not found",
+      "title": "User profile",
+      "edit": "Edit",
+      "name": "Name",
+      "email": "Email",
+      "id": "ID"
+  }
+}
